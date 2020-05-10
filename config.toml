@@ -1,3 +1,32 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+# Site settings
+baseurl = "https://relatorios-do-mercado.netlify.app/"
+languageCode = "pt-br"
+title = "Relatórios do Mercado - Os melhores conteúdos sobre investimentos"
+theme = "hugrid"
+# Enter your tracking code to enable Google Analytics
+googleAnalytics = "UA-XXXXXXXX-Y"
+
+contentdir = "content"
+datadir = "data"
+layoutdir = "layouts"
+publishdir = "public"
+
+[params]
+    # Meta
+    title = "Relatórios do Mercado"
+    subtitle = "Os melhores conteúdos sobre investimentos"
+    author = "Guido Percú"
+    description = "Informação para melhorar seu processo de investimentos"
+    keywords = "relatórios, investimentos, análise, bolsa, ações, renda fixa, renda variável"
+
+    # Body background color
+    bodybgcolor = "#f9f9f9"
+
+    # Preview container button text
+    buttontext = "Ler os relatórios"
+
+    # Footer text
+    footertext = "Feito por [Guido Percú](http://www.guidopercu.dev/)"
+
+    # add extra-css
+    # custom_css = ['css/extra1.css', 'css/extra2.css']
